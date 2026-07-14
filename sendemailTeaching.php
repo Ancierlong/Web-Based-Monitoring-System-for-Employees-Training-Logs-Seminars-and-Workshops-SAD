@@ -163,15 +163,15 @@ $mail = new PHPMailer(true);
 try {
     // SMTP configuration
     $mail->isSMTP();
-    $mail->Host = 'smtp-relay.sendinblue.com';
+    $mail->Host = '';
     $mail->SMTPAuth = true;
-    $mail->Username = 'michael.valle@perpetualdalta.edu.ph';
-    $mail->Password = 'xsmtpsib-d693d293770bdcaf5d0855b80ba4fcf00a3e71f1266824590bf0e2900f3a34f6-8m964YBJkWDUp5Ag';
+    $mail->Username = '';
+    $mail->Password = '';
     $mail->Port = 587;
 
     // Set email details
-    $mail->setFrom('calongangelo1@gmail.com');
-    $mail->addAddress('gelocalong@yahoo.com');
+    $mail->setFrom('');
+    $mail->addAddress('');
     $mail->Subject = 'Request for Training Logs - Teaching Classification';
 
     // Attach the query result as HTML
