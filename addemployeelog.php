@@ -171,7 +171,7 @@ if (!isset($_SESSION['username'])) {
 }
 
 // Connect to the database
-$db = new mysqli('sql101.epizy.com', 'epiz_34177382', 'g8RD7S5lOp', 'epiz_34177382_sad');
+$db = new mysqli('---', '---', '---', '---');
 
 session_regenerate_id();
 
